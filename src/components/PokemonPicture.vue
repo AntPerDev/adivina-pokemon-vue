@@ -41,12 +41,31 @@ export default {
 <style scoped>
 .pokemon-container {
     height: 200px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 img {
-    height: 200px;
+    padding: 5px;
+    width: 200px;
+    /* height: 150px; */
+    margin: 10px;
+    /* line-height: 150px; */
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+
+
+
+
+    /* height: 200px; */
     position: absolute;
-    right: 32%;
+    /* right: 36%; */
     user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
