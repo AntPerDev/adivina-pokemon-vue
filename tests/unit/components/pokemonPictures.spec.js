@@ -48,7 +48,7 @@ describe('PokemonPicture componet', () => {
             }
         })
 
-        // console.log(wrapper.html())
+        console.log( wrapper.html() )
         const img = wrapper.find('img')
 
         expect( img.exists() ).toBeTruthy()
